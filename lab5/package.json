@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-5",
+  "version": "1.0.0",
+  "description": "My lab 5 module with API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jiayin Huang 10477088",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "express": "^4.18.2"
+  }
+}

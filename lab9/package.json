@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "My lab 9 using HTML, CSS, and JavaScript on the user's browser to make a simple array sort",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jiayin Huang 10477088",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

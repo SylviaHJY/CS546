@@ -1,0 +1,14 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "My lab 4 module with MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jiayin Huang 10477088",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.10.0"
+  }
+}

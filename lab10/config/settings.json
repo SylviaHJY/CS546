@@ -1,0 +1,6 @@
+{
+    "mongoConfig": {
+      "serverUrl": "mongodb://localhost:27017/",
+      "database": "Jiayin_Huang_lab10"
+    }
+}

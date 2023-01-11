@@ -1,0 +1,43 @@
+<!-- 
+Your page should have a few basic user interface elements:
+-A header tag, with an h1 naming your site, with a title for your page
+-A footer with your name, student ID, and any other info about yourself you wish to include
+-A single unordered list with an id of results. All the arrays you have checked so far (until you refresh the page) will appear in this list as list items. Each item in the list will alternate the text colors starting with green, then red, then green, then red etc.
+
+Your page will have a form with the following:
+-A label with a for attribute referencing your input
+-A input with a name and type of text
+-A button to submit the form
+Execute a JavaScript when a button is clicked:<button onclick="myFunction()">Click me</button>
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Sort Array</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="public/js/main.js"></script>
+  <link rel="stylesheet" href="/public/css/main.css">
+ </head>
+ <body>
+  <header>
+    <h1>The Whole Array Sort Application</h1>
+  </header>
+  <main>
+    <div id="error" class="error" hidden>I'm an error</div>
+    <form method="POST" id="myForm">
+      <label for="InputArrays">Enter Number of arrays</label>
+      <input type="text" name="InputArrays" id="InputArrays">
+      <button type="submit" onclick="sortArray()">Submit</button>
+    </form>
+    <div>
+      <ul id="results"></ul>
+    </div>
+  </main>
+  <footer>
+    <p>Jiayin Huang 10477088 Software Develop Engineer</p>
+   </footer>
+ </body>
+ </html>
